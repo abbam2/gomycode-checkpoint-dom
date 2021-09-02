@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkpoint dom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Panier</h1>
+  <background>
+
+    <table width=1000px height=400px>
+
+      <tr>
+        <th>Nom de l'article</th>
+        <th>Quantite</th>
+        <th>Prix Unitaire</th>
+        <th>Sous total</th>
+      </tr>
+
+      <div class="article1">
+
+        <tr>
+          <td style="display: flex;justify-content: space-around;">
+            <img src="sources/nodejs.jpeg" alt="" width="100px">
+            <card>
+              <h2 style="color: black;">Nodejs</h2>
+              <button>Supprimer</button>
+            </card>
+          </td>
+
+          <td>
+            <button class="btnm">-</button>
+            <input type="text" value="1" class="qty">
+            <button class="btnp">+</button>
+          </td>
+          <td class="price">150</td>
+          <td class="sousTotal">150</td>
+        </tr>
+
+      </div>
+
+      <div class="article2">
+        <tr>
+          <td style="display: flex;justify-content: space-around;">
+            <img src="sources/html.jpeg" alt="" width="100px">
+            <card>
+              <h2 style="color: black;">Html</h2>
+              <button class="supp">Supprimer</button>
+            </card>
+          </td>
+
+          <td>
+            <button class="btnm">-</button>
+            <input type="text" value="1" class="qty">
+            <button class="btnp">+</button>
+          </td>
+          <td class="price">1000</td>
+          <td class="sousTotal">1000</td>
+        </tr>
+
+      </div>
+
+      <tr class="articleAjout">
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td style="text-align: right;"><button>Ajouter un article</button></td>
+      </tr>
+
+    </table>
+
+  </background>
+
+  <h2 class="total">Total: 0 </h2>
+
+  <script src="index.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,31 @@
+
+h1{
+margin-left: 50px;    
+color: white;}
+
+background{
+display: flex;
+justify-content: center;
+padding-top: 50px; 
+}
+
+h2{
+text-align: center;    
+color: white;
+}
+
+table{
+background-color:white;    
+}
+
+body{
+background-color: black;    
+}
+
+img{
+border: 1px solid black;    
+}
+button{
+}
+
+
