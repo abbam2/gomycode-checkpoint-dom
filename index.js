@@ -20,7 +20,7 @@ function decrease(){
         let price = parseInt(this.parentElement.nextElementSibling.innerHTML);
 
         sousTotal(this, quantity, price)
-        total
+        total()
 	}
 }
 
